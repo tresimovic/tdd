@@ -22,7 +22,6 @@ from src import status
 
 class CounterTest(TestCase):
     """Counter tests"""
-    
     def test_create_a_counter(self):
         """It should create a counter"""
         client = app.test_client()
